@@ -16,7 +16,7 @@ This is a collection of useful default alarm definitions for OpenStack Monasca, 
 
 ## Reference
 
-The origin work can be reference at here.
+The origin work can be referenced from here.
 
 https://github.com/hpcloud-mon/ansible-monasca-default-alarms
 
