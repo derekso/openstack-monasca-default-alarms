@@ -5,8 +5,18 @@ This is a collection of useful default alarm definitions for OpenStack Monasca, 
 
 ## How to run this script?
 
-1. Check out this repository in your linux box attached to the Openstack admin network.
+1. Check out this repository in your OpenStack control node or a linux box attached to the Openstack admin network.
 2. Modify the `.monascarc` file for the password the OpenStack URL.
-3. Execute the create-alarm-def.sh script
+3. If you are not running this script in openstack control node, you need to install monasca client. For example, if you are using SUSE Linux, run 
 
+`zypper in python-monascaclient`
+
+4. Make the script executable: `chmod +x alarm-def-create.sh`
+5. Execute the script `./alarm-def-create.sh`
+
+## Reference
+
+The origin work can be reference at here.
+
+https://github.com/hpcloud-mon/ansible-monasca-default-alarms
 
